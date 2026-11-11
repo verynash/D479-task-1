@@ -39,6 +39,10 @@ nav a:visited {
     color: var(--primary-font-color);
 }
 
+a {
+    color: var(--primary-font-color);
+}
+
 ul {
     display: flex;
     flex-flow: row nowrap;
@@ -131,6 +135,10 @@ p.description {
     text-decoration: underline;
     text-underline-offset: 3px;
     text-decoration-color: var(--primary-font-color);
+}
+
+p.description a {
+    color: var(--primary-font-color);
 }
 
 p.description a:visited {
