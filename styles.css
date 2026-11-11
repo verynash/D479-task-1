@@ -16,6 +16,10 @@
     text-decoration: none;
 }
 
+body {
+    color: var(--primary-font-color);
+}
+
 .wrapper {
     display: flex;
     flex-flow: column;
@@ -39,7 +43,7 @@ nav a:visited {
     color: var(--primary-font-color);
 }
 
-a {
+a, a:visited, a:hover, a:active, a:focus, a:link {
     color: var(--primary-font-color);
 }
 
